@@ -11,7 +11,7 @@ function App() {
     <Navbar/>
     <Search/>
     <Hero/>
-    
+    <GetRegister/>
     <Awards/>
     <Para/>
     <Footer/>

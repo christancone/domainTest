@@ -32,12 +32,12 @@ const Awards = () => {
     <>
       <div
         name=''
-        className='bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen text-center md:text-left sm:pb-10 pb-1 font-poppins'
+        className='bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen text-center md:text-left sm:pb-10 pb-1 font-poppins mt-20'
       >
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
           <div className='pb-8'>
             <p className='text-4xl font-bold inline border-b-4 border-gray-500'>
-Other Services           </p>
+Our Services           </p>
             <p className='py-6'>You May Also Like</p>
           </div>
 
