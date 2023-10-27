@@ -8,9 +8,9 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-full flex py-3 justify-between items-center navbar">
+    <nav className="w-full flex py-3 justify-between items-center">
       <img src={logo} alt="hoobank" className="w-[80px] h-[50px] " />
-
+<div  className="relative z[5]">
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
@@ -52,6 +52,7 @@ const Navbar = () => {
             ))}
           </ul>
         </div>
+      </div>
       </div>
     </nav>
   );

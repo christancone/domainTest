@@ -1,5 +1,5 @@
 import React from "react"
-import { Navbar, Search, Hero, GetRegister } from "./components"
+import { Navbar, Search, Hero, GetRegister, Awards, Para, Footer} from "./components"
 import styles from "./style"
 function App() {
  return(   
@@ -11,7 +11,11 @@ function App() {
     <Navbar/>
     <Search/>
     <Hero/>
-    <GetRegister/>
+    
+    <Awards/>
+    <Para/>
+    <Footer/>
+    
       </div>
     </div>
 

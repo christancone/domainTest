@@ -4,26 +4,35 @@ import styles from '../style'
 
 const Hero = () => {
   return (
-    <div className='flex justify-between items-center'>
+    <>
+    <div className='flex flex-col md:flex-row justify-between items-center'>
       <div>
-        <span className='text-5xl text-gradient font-poppins'>Easy, Fast, and Reliable Domain Registration.</span>
+        <span className='text-5xl text-gradient font-poppins'>Easy, Fast, and Reliable Domain Registration.
         <br/><br/>
-        <span className='text-gradient2 text-5xl'> Get Registered with just few clicks</span>
+        Get Registered with just few clicks
+        </span>
+      </div>
+      
+
+      <div className="w-full md:w-auto m-10">
+        <img src={www} alt="wwwImage" className="w-full rounded-xl" />
+      </div>
+      <div>
+        
+
+        
+
       </div>
 
-      <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
-      <img src={www} alt="wwwImage" style={{width: '120%', height: '120%'}} className="relative z-[5]" />
-
-
-        {/* gradient start */}
-        <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
-        <div className="absolute z-[1] w-[80%] h-[80%] rounded-full white__gradient bottom-40" />
-        <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient" />
-        {/* gradient end */}
-      </div>
     </div>
+      {/* gradient start */}
+      <div className="absolute z-[0] w-[40%] h-[30%] top-0 pink__gradient" />
+        <div className="absolute z-[1] w-[30%] h-[50%] rounded-full white__gradient bottom-40" />
+        <div className="absolute z-[0] w-[20%] h-[40%] right-20 bottom-20 blue__gradient" />
+        {/* gradient end */}
 
+    </>
   )
 }
 
-export default Hero
+export default Hero;
